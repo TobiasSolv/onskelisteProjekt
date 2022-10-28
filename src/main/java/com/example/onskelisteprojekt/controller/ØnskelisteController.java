@@ -10,6 +10,7 @@ public class ØnskelisteController {
     public String homepage(){
         return "homepage";
     }
+
     @GetMapping("/wishlist")
     public String wishlist(){
         return "wishlist";

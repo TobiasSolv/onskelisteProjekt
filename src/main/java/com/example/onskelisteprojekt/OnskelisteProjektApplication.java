@@ -1,4 +1,4 @@
-package com.example.onskelisteprojekt.service;
+package com.example.onskelisteprojekt;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
