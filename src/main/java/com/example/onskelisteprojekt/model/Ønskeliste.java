@@ -1,6 +1,9 @@
 package com.example.onskelisteprojekt.model;
 
+
+
 public class Ønskeliste {
+
     private String wish;
 
     public String getWish() {

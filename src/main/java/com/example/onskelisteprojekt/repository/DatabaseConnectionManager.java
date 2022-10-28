@@ -12,9 +12,9 @@ public class DatabaseConnectionManager {
 
     public static Connection getConnection(){
 
-        hostname="";
-        username="";
-        password="";
+        hostname="jdbc:mysql://tobiasogjessica.mysql.database.azure.com/wish";
+        username="tobiasS";
+        password="Corona19";
 
         try{
             conn= DriverManager.getConnection(hostname,username,password);
