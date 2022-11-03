@@ -12,8 +12,10 @@ public class HomeController {
     @GetMapping("/homepage")
     public String getØnskeliste(Model model){
         model.addAttribute("ønskeliste",service.getØnskeliste());
-        return "ønskeliste";
+        return "ønskeliste"; //hvad bruges de til ? både 10 og linje 12 alt mellem det. Hvor kalder vi det
+        //fra og hvad sker der? 
     }
+
 
     @GetMapping("/wishlist")
     public String index(){

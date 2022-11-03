@@ -11,6 +11,7 @@ public class ØnskelisteController {
         return "homepage";
     }
 
+
     @GetMapping("/wishlist")
     public String wishlist(){
         return "wishlist";

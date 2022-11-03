@@ -1,7 +1,26 @@
 body{
-    background-color: #30b630; /* Hjemmesidens baggrunds farve  */
+    background-color: #5d7d8a; /* Hjemmesidens baggrunds farve  */
     font-family: "Arial Black"; /* Skrift*/
-    color: #33480b;
+    color: #070809;
     font-weight: 900;
     margin: auto;
+
+
+}
+center {
+    text-align: center;
+    border: 3px solid #070809;
+}
+
+center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid #3a423a;
+    padding: 10px;
 }
