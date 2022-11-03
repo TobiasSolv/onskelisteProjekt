@@ -1,10 +1,12 @@
-body{
-    background-color: #333d57; /* Hjemmesidens baggrunds farve  */
+body {
+
+    background-color: #5d7d8a;
     font-family: "Arial Black"; /* Skrift*/
-    color: #33480b;
+    color: #070809;
     font-weight: 900;
     margin: auto;
 }
+
 /* Add a black background color to the top navigation bar */
 topnav {
     overflow: hidden;
@@ -31,7 +33,7 @@ topnav {
 
 /* Style the "active" element to highlight the current page */
 .topnav a.active {
-    background-color: #2196F3;
+    background-color: #3092b6;
     color: white;
 }
 
@@ -55,6 +57,7 @@ topnav {
         margin: 0;
         padding: 14px;
     }
+
     .topnav input[type=text] {
         border: 1px solid #ccc;
     }

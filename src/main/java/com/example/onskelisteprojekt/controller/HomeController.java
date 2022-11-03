@@ -1,9 +1,11 @@
 package com.example.onskelisteprojekt.controller;
 
 import com.example.onskelisteprojekt.service.ØnskelisteService;
+import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.context.request.WebRequest;
+
 
 public class HomeController {
 
@@ -12,8 +14,8 @@ public class HomeController {
     @GetMapping("/homepage")
     public String getØnskeliste(Model model){
         model.addAttribute("ønskeliste",service.getØnskeliste());
-        return "ønskeliste"; //hvad bruges de til ? både 10 og linje 12 alt mellem det. Hvor kalder vi det
-        //fra og hvad sker der? 
+        return "ønskeliste"; //hvad bruges de til ? både 10 og linje 17 alt mellem det. Hvor kalder vi det
+        //fra og hvad sker der?
     }
 
 
